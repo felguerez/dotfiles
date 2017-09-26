@@ -1,0 +1,22 @@
+[user]
+	name = casschin
+	email = casschin@gmail.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[alias]
+	s = status
+	st = status
+	last = log -1 HEAD
+	track = !git-track
+[instaweb]
+	local = true
+	httpd = apachectl -f
+	port = 4321
+[core]
+	editor = vim
+	excludesfile = /Users/cass/.gitexcludes
+[branch]
+	autosetupmerge = true
+	autosetuprebase = always
