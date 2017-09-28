@@ -44,3 +44,8 @@ function gr() { grep -nr $@ *; }
 EDITOR=vi;   	export EDITOR
 PAGER=less;  	export PAGER # git diff expects 'less' for best output
 PATH=$PATH:$HOME/bin:/usr/local/sbin
+
+##############################################################################
+# nvm
+source $HOME/.nvm/nvm.sh
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
